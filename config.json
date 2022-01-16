@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://github.com/vadoro/CAT_network",
+    "text": "김용수(Yongsoo Kim)"
+  },
+  "text": {
+    "more": "\u003ch3 style\u003d\"text-align: left;\"\u003e\u003cstrong\u003e노드와 에지 정보\u003c/strong\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli style\u003d\"text-align: left;\"\u003e노드의 크기: 인용 회수(in-degree)\u003c/li\u003e\n\u003cli style\u003d\"text-align: left;\"\u003e노드의 색깔: 자동으로 분류된 이론의 소집단\u003c/li\u003e\n\u003cli style\u003d\"text-align: left;\"\u003e에지의 방향: 논문 저자에서 인용문헌 저자로 향하는 유향 그래프\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003ch3\u003e\u003cstrong\u003e게피 다운로드와 사용법\u003c/strong\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli style\u003d\"text-align: left;\"\u003e연결망 분석 및 시각화 도구: 게피(\u003ca href\u003d\"https://gephi.org/\"\u003eGephi\u003c/a\u003e)\u003c/li\u003e\n\u003cli style\u003d\"text-align: left;\"\u003e게피 사용법: 유튜브 채널, \u003ca href\u003d\"https://www.youtube.com/channel/UCu2gwN8Kl6rmfgU1AKg_LsQ\"\u003e인문학자의 디지털 리터러시\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e",
+    "intro": "1996년부터 2015년까지 20년 동안 학술지 \u003c비평과 이론\u003e에 실린 논문들의 인용문헌을 \n논문 저자와 인용문헌 저자 사이의 연결망으로 시각화한 결과입니다.",
+    "title": "학술지 \u003c비평과 이론\u003e의 인용연결망(1996-2015)"
+  },
+  "legend": {
+    "edgeLabel": "인용관계(Citation)",
+    "colorLabel": "이론 집단(Modularity Class)",
+    "nodeLabel": "이론가, 학자(Scholars)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
